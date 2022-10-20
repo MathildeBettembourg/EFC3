@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.displayCardLocataires{
+  display: flex;
+  flex-direction: column;
+}
+.buttonOnCards{
+  display: flex;
+  flex-direction: co;
+}
+.logoSize{
+  height: 5%;
+  width: 5%;
+}
+.displayAddButton{
+  display: flex;
+  flex-direction: row;
+  gap:2%
+}
+.mainTitle{
+  display: flex;
+    flex-direction: row;
+    height: 10%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.formDisplay{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+}
+.blocForm{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+
+}
+.h1Title{
+  width: 95%;
+}
+.liens{
+  text-decoration: none;
+  color:black;
+}
+.titlePage{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+.buttonText{
+  color:white;
+  text-decoration: none;
+}
+.react-calendar { 
+  width: 400px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+ .react-calendar__navigation button {
+  color: #6f48eb;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .recaplocation{
+  display: flex;
+  flex-direction: row;
+width: 98vw;
+ }
+ .leftPage{
+  width:48%;
+  display: flex;
+  flex-direction: column;
+ }
+ .rightPage{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.centerCalendar{
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayLocataireTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.displayLocataireData{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.displayLocataireDataIn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.imageSizeVoiture{
+  max-width: 15%;
+  height: 35%;
+}
+.displayCarToRent{
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 98%;
+  
+
+}
+.carde{
+width: 100%;
+  flex-direction: row-reverse;
+}
+.buttonDisplayOrientationText{
+  display: flex;
+  flex-direction: row;
+  gap:2%
+}
+
+.card-body{
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+.half{
+  width: 50%;
+}

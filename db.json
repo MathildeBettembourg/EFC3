@@ -1,0 +1,110 @@
+{
+  "locataires": [
+    {
+      "nom": "vxwwxxwx",
+      "prenom": "xxx",
+      "dateDeNaissance": "xxx",
+      "email": "xxx",
+      "telephone": "xx",
+      "id": 5
+    },
+    {
+      "nom": "ccc",
+      "prenom": "ccc",
+      "dateDeNaissance": "ccc",
+      "email": "ccc",
+      "telephone": "ccc",
+      "id": 7
+    }
+  ],
+  "vehicules": [
+    {
+      "marque": "Volvo",
+      "modele": "test",
+      "immatriculation": "test",
+      "etat": "A",
+      "prix": 22,
+      "disponibilite": false,
+      "type": "moto",
+      "id": 1
+    },
+    {
+      "marque": "Renault",
+      "modele": "test2",
+      "immatriculation": "test2",
+      "etat": "A",
+      "prix": 22,
+      "disponibilite": true,
+      "type": "voiture",
+      "id": 2
+    },
+    {
+      "marque": "Peugeot",
+      "modele": "test",
+      "immatriculation": "test",
+      "etat": "A",
+      "prix": 22,
+      "disponibilite": false,
+      "type": "camion",
+      "id": 3
+    },
+    {
+      "marque": "Mercedes",
+      "modele": "test2",
+      "immatriculation": "test2",
+      "etat": "A",
+      "prix": 22,
+      "disponibilite": true,
+      "type": "voiture",
+      "id": 4
+    }
+  ],
+  "contrats": [
+    {
+      "marque": "Renault",
+      "modele": "test2",
+      "immatriculation": "test2",
+      "etat": "A",
+      "prixJournee": 22,
+      "disponibilite": true,
+      "type": "voiture",
+      "idVehicule": 2,
+      "nom": "vxwwxxwx",
+      "prenom": "xxx",
+      "dateDeNaissance": "xxx",
+      "email": "xxx",
+      "telephone": "xx",
+      "idLocataire": 5,
+      "duree": 3,
+      "prix": 66,
+      "fullstart": "2022-10-17T22:00:00.000Z",
+      "fullend": "2022-10-20T21:59:59.999Z",
+      "start": "18/10/2022",
+      "end": "20/10/2022",
+      "id": 14
+    },
+    {
+      "prix": 198,
+      "nom": "ccc",
+      "prenom": "ccc",
+      "dateDeNaissance": "ccc",
+      "email": "ccc",
+      "telephone": "ccc",
+      "idLocataire": 7,
+      "marque": "Renault",
+      "modele": "test2",
+      "immatriculation": "test2",
+      "etat": "A",
+      "prixJournee": 22,
+      "disponibilite": true,
+      "type": "voiture",
+      "idVehicule": 2,
+      "duree": 9,
+      "fullstart": "2022-10-19T22:00:00.000Z",
+      "fullend": "2022-10-28T21:59:59.999Z",
+      "start": "20/10/2022",
+      "end": "28/10/2022",
+      "id": 15
+    }
+  ]
+}
